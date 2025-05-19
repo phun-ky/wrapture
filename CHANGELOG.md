@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5](https://github.com/phun-ky/wrapture/compare/0.1.4...0.1.5) (2025-05-19)
+
+### Tasks
+
+* 🤖 bump commander from 13.1.0 to 14.0.0 in the major-updates group ([58e37fc](https://github.com/phun-ky/wrapture/commit/58e37fcce0aea700bbafa5fdc1669d556c8b9955))
+
 ## [0.1.4](https://github.com/phun-ky/wrapture/compare/0.1.3...0.1.4) (2025-05-19)
 
 ### Tasks
