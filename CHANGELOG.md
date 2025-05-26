@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.6](https://github.com/phun-ky/wrapture/compare/0.1.5...0.1.6) (2025-05-26)
+
+### Tasks
+
+* 🤖 bump the minor-and-patch group with 4 updates ([30570c1](https://github.com/phun-ky/wrapture/commit/30570c177e60aa3444715bc01e7459bd1e97ecaa))
+
 ## [0.1.5](https://github.com/phun-ky/wrapture/compare/0.1.4...0.1.5) (2025-05-19)
 
 ### Tasks
