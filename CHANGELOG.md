@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.9](https://github.com/phun-ky/wrapture/compare/0.1.8...0.1.9) (2025-06-16)
+
+### Tasks
+
+* 🤖 bump @types/node in the major-updates group ([6dd1496](https://github.com/phun-ky/wrapture/commit/6dd1496aa1884d083d430a9a3d7690324104b85e))
+
 ## [0.1.8](https://github.com/phun-ky/wrapture/compare/0.1.7...0.1.8) (2025-06-09)
 
 ### Tasks
