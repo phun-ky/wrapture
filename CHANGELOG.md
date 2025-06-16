@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.10](https://github.com/phun-ky/wrapture/compare/0.1.9...0.1.10) (2025-06-16)
+
+### Tasks
+
+* 🤖 bump the minor-and-patch group across 1 directory with 5 updates ([ecdb799](https://github.com/phun-ky/wrapture/commit/ecdb79949a3b79a92b8957dad44d9c7bef175bbf))
+
 ## [0.1.9](https://github.com/phun-ky/wrapture/compare/0.1.8...0.1.9) (2025-06-16)
 
 ### Tasks
