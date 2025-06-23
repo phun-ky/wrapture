@@ -62,7 +62,7 @@
     "@release-it/conventional-changelog": "^10.0.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
-    "@stylistic/eslint-plugin": "^4.2.0",
+    "@stylistic/eslint-plugin": "^5.0.0",
     "@types/node": "^24.0.2",
     "cobertura": "^1.0.1",
     "eslint": "^9.20.0",
