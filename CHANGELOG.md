@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.12](https://github.com/phun-ky/wrapture/compare/0.1.11...0.1.12) (2025-06-23)
+
+### Tasks
+
+* 🤖 bump @stylistic/eslint-plugin in the major-updates group ([3994048](https://github.com/phun-ky/wrapture/commit/39940482cdf511cef82d3eafa6a1c13673e241d9))
+
 ## [0.1.11](https://github.com/phun-ky/wrapture/compare/0.1.10...0.1.11) (2025-06-23)
 
 ### Tasks
