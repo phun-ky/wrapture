@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.13](https://github.com/phun-ky/wrapture/compare/0.1.12...0.1.13) (2025-07-07)
+
+### Tasks
+
+* 🤖 bump the minor-and-patch group across 1 directory with 8 updates ([39f0386](https://github.com/phun-ky/wrapture/commit/39f0386856e790d4957fe334d133f1592f7ff99d))
+
 ## [0.1.12](https://github.com/phun-ky/wrapture/compare/0.1.11...0.1.12) (2025-06-23)
 
 ### Tasks
