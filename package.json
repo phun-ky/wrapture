@@ -1,6 +1,6 @@
 {
   "name": "wrapture",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Wrapture lets you go from a Python-trained model to deployable JavaScript with a single command. It generates TypeScript bindings and a Web/Node-compatible wrapper, using WebGPU/WASM-ready ONNX runtimes.",
   "keywords": [
     "onnx",
