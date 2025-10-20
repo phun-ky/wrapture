@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.26](https://github.com/phun-ky/wrapture/compare/0.1.25...0.1.26) (2025-10-20)
+
+### Tasks
+
+* 🤖 Make sure we can release ([d5c5c37](https://github.com/phun-ky/wrapture/commit/d5c5c37bb2f34795cd02c4448c5d8b023fcf0e9a))
+
+### Bug
+
+* 🐛 Add missing dependency ([666dbb2](https://github.com/phun-ky/wrapture/commit/666dbb2042aaf1ee77a1418a5fa9623bc9f22a22))
+* 🐛 Keep legacy with `dynamo=False` ([e8162af](https://github.com/phun-ky/wrapture/commit/e8162af24c835d12ec6a23f06d4becf5b4ca0bb9))
+
 ## [0.1.25](https://github.com/phun-ky/wrapture/compare/0.1.24...0.1.25) (2025-10-14)
 
 ### Tasks
