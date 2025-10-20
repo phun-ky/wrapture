@@ -36,7 +36,8 @@ def convert_to_onnx(input_path, output_path, quantize=False):
         input_names=['input'],
         output_names=['output'],
         dynamic_axes={'input': {0: 'batch_size'}, 'output': {0: 'batch_size'}},
-        opset_version=11
+        opset_version=11,
+        dynamo=False
     )
     model = onnx.load(output_model_path)
     model_simp, check = simplify(model)
