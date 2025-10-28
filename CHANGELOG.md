@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.28](https://github.com/phun-ky/wrapture/compare/0.1.27...0.1.28) (2025-10-28)
+
+### Tasks
+
+* 🤖 bump the minor-and-patch group with 2 updates ([85c7b64](https://github.com/phun-ky/wrapture/commit/85c7b64c5747a032190834d8441fb281beabf4f9))
+
 ## [0.1.27](https://github.com/phun-ky/wrapture/compare/0.1.26...0.1.27) (2025-10-20)
 
 ### Tasks
