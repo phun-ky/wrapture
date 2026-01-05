@@ -44,7 +44,7 @@
     "build": "tsup",
     "commit": "npx git-cz",
     "docs:gen": "node ./node_modules/.bin/typedoc",
-    "release": "release-it",
+    "release": "npx release-it --ci",
     "start": "node ./bin/wrapture.js",
     "style:code": "npx putout src",
     "style:format": "./node_modules/.bin/eslint -c ./eslint.config.mjs src  --fix && ./node_modules/.bin/prettier --write ./eslint.config.mjs src",
