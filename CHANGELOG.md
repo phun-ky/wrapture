@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.34](///compare/0.1.33...0.1.34) (2026-01-05)
+
+### Tasks
+
+* 🤖 bump @types/node in the major-updates group 81b6ee1
+* 🤖 bump the major-updates group with 2 updates a24f4c9
+* 🤖 bump the minor-and-patch group with 5 updates 57a0e5e
+
+### Bug
+
+* 🐛 Release with trusted publishing 2997d24
+
 ## [0.1.33](///compare/0.1.32...0.1.33) (2025-12-08)
 
 ## [0.1.32](///compare/0.1.31...0.1.32) (2025-12-02)

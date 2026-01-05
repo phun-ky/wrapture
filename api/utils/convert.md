@@ -2,7 +2,7 @@
 
 # utils/convert
 
-> Last updated 2025-12-08T14:05:23.050Z
+> Last updated 2026-01-05T08:00:21.940Z
 
 ## Interfaces
 
