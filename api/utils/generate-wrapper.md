@@ -2,7 +2,7 @@
 
 # utils/generate-wrapper
 
-> Last updated 2026-01-05T08:00:21.990Z
+> Last updated 2026-01-05T10:49:22.762Z
 
 ## Interfaces
 

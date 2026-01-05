@@ -2,7 +2,7 @@
 
 # wrapture
 
-> Last updated 2026-01-05T08:00:22.056Z
+> Last updated 2026-01-05T10:49:22.820Z
 
 ---
 
