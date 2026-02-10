@@ -2,7 +2,7 @@
 
 # utils/convert
 
-> Last updated 2026-01-27T07:43:56.042Z
+> Last updated 2026-02-10T11:16:01.851Z
 
 ## Interfaces
 
@@ -15,10 +15,10 @@ Options for the [convert](#convert) function.
 
 #### Properties
 
-| Property                          | Type      | Description                                                                                   | Defined in                                                                                    |
-| --------------------------------- | --------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| <a id="format"></a> `format?`     | `string`  | The output format for the converted model (e.g., 'onnx'). Defaults to 'onnx' if not provided. | [utils/convert.ts:17](https://github.com/phun-ky/wrapture/blob/main/src/utils/convert.ts#L17) |
-| <a id="quantize"></a> `quantize?` | `boolean` | Whether to apply quantization to the model.                                                   | [utils/convert.ts:22](https://github.com/phun-ky/wrapture/blob/main/src/utils/convert.ts#L22) |
+| Property                                   | Type      | Description                                                                                   | Defined in                                                                                    |
+| ------------------------------------------ | --------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| <a id="property-format"></a> `format?`     | `string`  | The output format for the converted model (e.g., 'onnx'). Defaults to 'onnx' if not provided. | [utils/convert.ts:17](https://github.com/phun-ky/wrapture/blob/main/src/utils/convert.ts#L17) |
+| <a id="property-quantize"></a> `quantize?` | `boolean` | Whether to apply quantization to the model.                                                   | [utils/convert.ts:22](https://github.com/phun-ky/wrapture/blob/main/src/utils/convert.ts#L22) |
 
 ## Functions
 

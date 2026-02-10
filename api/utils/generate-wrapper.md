@@ -2,7 +2,7 @@
 
 # utils/generate-wrapper
 
-> Last updated 2026-01-27T07:43:56.092Z
+> Last updated 2026-02-10T11:16:01.897Z
 
 ## Interfaces
 
@@ -15,9 +15,9 @@ Options for generating ONNX wrapper files.
 
 #### Properties
 
-| Property                       | Type     | Description                                                                                                                                                                      | Defined in                                                                                                      |
-| ------------------------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| <a id="backend"></a> `backend` | `string` | The backend to use for inference. This affects the model file used. If set to `'wasm'`, the generated wrapper will load `model_quant.onnx`, otherwise it will load `model.onnx`. | [utils/generate-wrapper.ts:16](https://github.com/phun-ky/wrapture/blob/main/src/utils/generate-wrapper.ts#L16) |
+| Property                                | Type     | Description                                                                                                                                                                      | Defined in                                                                                                      |
+| --------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| <a id="property-backend"></a> `backend` | `string` | The backend to use for inference. This affects the model file used. If set to `'wasm'`, the generated wrapper will load `model_quant.onnx`, otherwise it will load `model.onnx`. | [utils/generate-wrapper.ts:16](https://github.com/phun-ky/wrapture/blob/main/src/utils/generate-wrapper.ts#L16) |
 
 ## Functions
 
