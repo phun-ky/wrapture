@@ -65,7 +65,7 @@
     "@stylistic/eslint-plugin": "^5.0.0",
     "@types/node": "^25.0.3",
     "cobertura": "^1.0.1",
-    "eslint": "^9.20.0",
+    "eslint": "^10.0.0",
     "eslint-config-phun-ky": "^1.0.0",
     "git-cz": "^4.9.0",
     "onnxruntime-web": "^1.22.0",
