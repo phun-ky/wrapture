@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.41](https://github.com/phun-ky/wrapture/compare/0.1.40...0.1.41) (2026-02-17)
+
+### Tasks
+
+* 🤖 bump putout in the major-updates group across 1 directory ([eb2e8f8](https://github.com/phun-ky/wrapture/commit/eb2e8f8a0817208d5b00f2121cbeb67fdfedd3af))
+
 ## [0.1.40](https://github.com/phun-ky/wrapture/compare/0.1.39...0.1.40) (2026-02-17)
 
 ### Tasks
