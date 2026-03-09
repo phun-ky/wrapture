@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.45](https://github.com/phun-ky/wrapture/compare/0.1.44...0.1.45) (2026-03-09)
+
+### Tasks
+
+* 🤖 bump @rollup/plugin-terser in the major-updates group ([7bafdf0](https://github.com/phun-ky/wrapture/commit/7bafdf047bccdd5dbe6977d0d1b17b575c42222b))
+
 ## [0.1.44](https://github.com/phun-ky/wrapture/compare/0.1.43...0.1.44) (2026-03-09)
 
 ### Tasks
