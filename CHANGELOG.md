@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.47](https://github.com/phun-ky/wrapture/compare/0.1.46...0.1.47) (2026-03-26)
+
+### Tasks
+
+* 🤖 bump the minor-and-patch group with 3 updates ([feccfda](https://github.com/phun-ky/wrapture/commit/feccfdae91a932e98c4847d6e7a0d5981add1687))
+
 ## [0.1.46](https://github.com/phun-ky/wrapture/compare/0.1.45...0.1.46) (2026-03-17)
 
 ### Tasks

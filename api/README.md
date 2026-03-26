@@ -1,6 +1,6 @@
 # wrapture API documentation
 
-> Last updated 2026-03-17T09:53:31.864Z
+> Last updated 2026-03-26T12:44:58.329Z
 
 ## Modules
 
