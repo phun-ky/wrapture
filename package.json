@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "chalk": "^5.4.1",
-    "commander": "^14.0.0",
+    "commander": "^15.0.0",
     "ora": "^9.0.0"
   },
   "devDependencies": {
@@ -63,7 +63,7 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^1.0.0",
     "@stylistic/eslint-plugin": "^5.0.0",
-    "@types/node": "^25.0.3",
+    "@types/node": "^26.1.1",
     "cobertura": "^1.0.1",
     "eslint": "^10.0.0",
     "eslint-config-phun-ky": "^2.0.0",
@@ -84,7 +84,7 @@
     "typedoc-plugin-no-inherit": "^1.4.0",
     "typedoc-plugin-remark": "^2.0.0",
     "typedoc-plugin-rename-defaults": "^0.7.1",
-    "typescript": "^6.0.2",
+    "typescript": "^7.0.2",
     "unified-prettier": "^2.0.1"
   },
   "engines": {
