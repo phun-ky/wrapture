@@ -18,22 +18,43 @@ on:
   pull_request:
     branches: ['main']
     types: [opened, synchronize] # Workflow triggering events
-    paths:
-      - '.github/**'
-      - 'src/**'
-      - 'package.json'
-      - 'package-lock.json'
-      - 'rollup.config.js'
-      - 'tsconfig.json'
-      - '.npmrc'
+    # No paths filter here: "check" is a required status, and a workflow skipped by
+    # a paths filter never reports it, so a README-only pull request could never merge.
+    # The changes job below skips the check job instead, which counts as passed.
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "check"
+  # Decides whether a pull request touches anything the check job builds or tests
+  changes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      code: ${{ steps.filter.outputs.code }}
+    steps:
+      - id: filter
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          if [ "$EVENT" != "pull_request" ]; then
+            echo "code=true" >> "$GITHUB_OUTPUT"
+          # If the files can't be listed, run the check rather than skip it
+          elif ! files=$(gh pr diff "$PR" --repo "$GITHUB_REPOSITORY" --name-only) \
+            || grep -qE '^(\.github/|src/|package(-lock)?\.json$|rollup\.config\.js$|tsconfig\.json$|\.npmrc$)' <<< "$files"; then
+            echo "code=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "code=false" >> "$GITHUB_OUTPUT"
+          fi
+  # This workflow contains a job called "check"
   check:
+    needs: changes
+    if: needs.changes.outputs.code == 'true'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
